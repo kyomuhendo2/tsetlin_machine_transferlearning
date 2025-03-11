@@ -17,7 +17,9 @@ def check_condition(observation, condition):
             break
     return true_condition  
 example_car = ['Four Wheels', 'Transports People','NOT Wings']
+example_car2 = ['Four Wheels', 'Transports People','Wings']
 print(check_condition(cars[0], example_car))
+print(check_condition(cars[0], example_car2))
 
 # Plant features
 maize = [
@@ -71,4 +73,5 @@ lake1 = ('is wide','is deep','flowing','cloudy')
 print('lake 1 is : ', check_lake(lake[0], lake1))
 lake2 = ('is wide','is deep','flowing','clear')
 print('lake 2 is : ', check_lake(lake[1], lake2))
+
 
