@@ -1,0 +1,2 @@
+- For Pre-trained models, VGG19 shall be imported and used as a feature extractor
+- For Tsetlin Machine configuration, each configuration will be represented as a class
